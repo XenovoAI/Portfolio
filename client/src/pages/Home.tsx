@@ -5,6 +5,7 @@ import { CodeMockup } from "@/components/CodeMockup";
 import { ProjectCard } from "@/components/ProjectCard";
 import { TimelineItem } from "@/components/TimelineItem";
 import { DottedBackground } from "@/components/DottedBackground";
+import { Navigation } from "@/components/Navigation";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -66,8 +67,9 @@ export default function Home() {
   return (
     <div className="relative min-h-screen bg-background text-foreground overflow-x-hidden">
       <DottedBackground />
+      <Navigation onNavigate={scrollToSection} />
       
-      <div className="relative z-10">
+      <div className="relative z-10 pt-20">
         {/* Hero Section */}
         <section className="min-h-screen flex items-center justify-center px-6 py-20">
           <div className="max-w-7xl w-full mx-auto">
