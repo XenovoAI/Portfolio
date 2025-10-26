@@ -1,0 +1,132 @@
+Build a personal portfolio website for **Harshit Patidar** with the same design style, structure, and animations as the portfolio of Oahid Zihad (the one with the dark futuristic UI, code snippet mockup on right, and animated tags like "UI Magic", "Clean Code", etc).
+
+### 🧠 GOAL
+Create a futuristic, interactive developer-founder portfolio website that represents Harshit as:
+- Founder & CEO of Xenovo AI
+- Co-Founder of SirCBSE
+- Founding Member at Zythorix Technologies
+- AI, Web3, and Blockchain Innovator from India
+
+The design must replicate the Oahid Zihad style — dark mode, dotted background, glowing badges, smooth scroll animations, code card mockup, and tag-based intro section.
+
+---
+
+### 🏠 HOME SECTION
+**Hero text:**
+Hello
+I'm Harshit Patidar
+
+markdown
+Copy code
+**Subheading:**  
+Founder of Xenovo AI | Co-Founder of SirCBSE | Innovator in AI, Web3 & Blockchain  
+
+**Floating badges:**  
+- Welcome to my universe  
+- Innovation  
+- AI Magic  
+- Clean Code  
+- Building the Future  
+
+**Short paragraph below:**  
+> Tech entrepreneur passionate about shaping the future through AI, blockchain, and decentralized innovation. Building intelligent systems that empower the next digital revolution.
+
+**Button set:**  
+- [View My Projects] (scrolls to Projects section)  
+- [Contact Me] (scrolls to Contact section)
+
+Right side: animated **code editor mockup** with a glowing effect showing:
+const profile = {
+name: "Harshit Patidar",
+title: "Founder & Innovator",
+skills: ["AI", "Web3", "Blockchain", "Next.js", "Python", "Tailwind"],
+projects: ["Xenovo AI", "SirCBSE", "Zythorix Technologies"],
+mission: "Build intelligent and decentralized systems that shape the future.",
+};
+
+yaml
+Copy code
+
+---
+
+### 👤 ABOUT SECTION
+Describe:
+> I’m Harshit Patidar — an innovator, founder, and AI enthusiast working to create intelligent systems that transform the way humans interact with technology. My ventures aim to push India into the forefront of the AI & Web3 revolution.
+
+Include a small timeline or badges of roles:
+- Founder, Xenovo AI  
+- Co-Founder, SirCBSE  
+- Founding Member, Zythorix Technologies  
+
+---
+
+### ⚙️ PROJECTS SECTION
+Cards styled with hover effects (like Oahid’s site).
+
+1️⃣ **Xenovo AI** — Advanced AI company creating decentralized, intelligent systems for blockchain & real-time analysis.  
+🔗 [xenovoai.com](https://xenovoai.com)
+
+2️⃣ **SirCBSE** — AI-powered EdTech platform simplifying CBSE learning with smart study tools.  
+🔗 [sircbse.com](https://sircbse.com)
+
+3️⃣ **Zythorix Technologies** — Tech startup focused on AI, ML, and Web3 product development.  
+🔗 [zythorix.com](https://zythorix.com)
+
+4️⃣ **XenShield AI** — Blockchain scam detection bot built using AI.  
+💡 “Protecting Web3 users from rug pulls, phishing, and malicious smart contracts.”
+
+---
+
+### 🏆 ACHIEVEMENTS / TIMELINE
+Use animated timeline component:
+- 2024 — Founded Xenovo AI  
+- 2024 — Co-Founded SirCBSE  
+- 2025 — Joined Zythorix Technologies  
+- 2025 — Built XenShield AI  
+- 2026 — Preparing for DeChat & Global Expansion  
+
+---
+
+### 🚀 VISION SECTION
+> My mission is to make India a hub of global AI and blockchain innovation — to lead the charge towards decentralized intelligence and technological freedom.
+
+---
+
+### 📬 CONTACT SECTION
+Modern card with:
+- 📧 harshitpatidarofficial@gmail.com  
+- 🔗 LinkedIn  
+- 💻 GitHub  
+- 🌐 Website: [harshitpatidar.in]  
+Include a contact form with name, email, and message.
+
+---
+
+### 🎨 DESIGN STYLE
+- Dark mode only  
+- Dotted grid background  
+- Glowing color palette (blue + purple)  
+- Futuristic font (e.g. Poppins / Inter)  
+- Glassmorphism components  
+- Smooth Framer Motion animations  
+- Floating tags like “Innovation”, “Clean Code”, “AI Magic”  
+
+---
+
+### ⚙️ TECH STACK
+- Framework: Next.js  
+- Styling: Tailwind CSS  
+- Animations: Framer Motion  
+- Hosting: Vercel  
+- Responsive for all screens
+
+---
+
+### 🔍 SEO SETUP
+**Title:** Harshit Patidar | Founder of Xenovo AI & Innovator in AI, Web3, Blockchain  
+**Description:** Official portfolio of Harshit Patidar — Founder of Xenovo AI, Co-Founder of SirCBSE, and Founding Member at Zythorix Technologies. Building the future of AI and Web3 innovation.  
+**Keywords:** Harshit Patidar, Xenovo AI, SirCBSE, Zythorix, AI Founder, Blockchain, Web3, Next.js Developer  
+
+---
+
+Deliver the **full working Next.js + Tailwind + Framer Motion code** in one go, ready to deploy on Vercel,
