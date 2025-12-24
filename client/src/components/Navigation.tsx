@@ -22,6 +22,7 @@ export function Navigation({ onNavigate }: NavigationProps) {
   const navItems = [
     { id: "all", label: "All" },
     { id: "about", label: "About" },
+    { id: "skills", label: "Skills" },
     { id: "projects", label: "Projects" },
     { id: "timeline", label: "Timeline" },
     { id: "vision", label: "Vision" },

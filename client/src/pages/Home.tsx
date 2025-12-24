@@ -226,8 +226,151 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Skills Section */}
+        <section id="skills" className="py-24 px-6 bg-muted/20">
+          <div className="max-w-7xl w-full mx-auto">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className="space-y-12"
+            >
+              <div className="text-center space-y-4">
+                <h2 className="text-4xl md:text-5xl font-bold flex items-center justify-center gap-3">
+                  <Code2 className="w-10 h-10 text-primary" />
+                  Technical Skills
+                </h2>
+                <div className="h-1 w-24 bg-gradient-to-r from-primary via-secondary to-accent mx-auto rounded-full" />
+              </div>
+
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {/* AI & Machine Learning */}
+                <motion.div
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: 0.1 }}
+                >
+                  <Card className="p-6 bg-card/50 backdrop-blur-xl border-primary/20 hover-elevate h-full">
+                    <div className="text-3xl mb-4">🤖</div>
+                    <h3 className="text-xl font-bold mb-4 text-primary">AI & Machine Learning</h3>
+                    <div className="flex flex-wrap gap-2">
+                      {["Python", "TensorFlow", "PyTorch", "Scikit-learn", "NLP", "Computer Vision", "Deep Learning", "Neural Networks"].map((skill) => (
+                        <Badge key={skill} variant="secondary" className="text-xs">
+                          {skill}
+                        </Badge>
+                      ))}
+                    </div>
+                  </Card>
+                </motion.div>
+
+                {/* Frontend Development */}
+                <motion.div
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: 0.2 }}
+                >
+                  <Card className="p-6 bg-card/50 backdrop-blur-xl border-primary/20 hover-elevate h-full">
+                    <div className="text-3xl mb-4">⚛️</div>
+                    <h3 className="text-xl font-bold mb-4 text-primary">Frontend Development</h3>
+                    <div className="flex flex-wrap gap-2">
+                      {["React 18", "TypeScript", "JavaScript", "Next.js", "Vite", "TailwindCSS", "shadcn/ui", "Radix UI", "Framer Motion", "React Router", "TanStack Query"].map((skill) => (
+                        <Badge key={skill} variant="secondary" className="text-xs">
+                          {skill}
+                        </Badge>
+                      ))}
+                    </div>
+                  </Card>
+                </motion.div>
+
+                {/* Backend & Database */}
+                <motion.div
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: 0.3 }}
+                >
+                  <Card className="p-6 bg-card/50 backdrop-blur-xl border-primary/20 hover-elevate h-full">
+                    <div className="text-3xl mb-4">🗄️</div>
+                    <h3 className="text-xl font-bold mb-4 text-primary">Backend & Database</h3>
+                    <div className="flex flex-wrap gap-2">
+                      {["Node.js", "Express", "Supabase", "PostgreSQL", "SQL", "REST APIs", "Edge Functions", "Serverless", "Database Design"].map((skill) => (
+                        <Badge key={skill} variant="secondary" className="text-xs">
+                          {skill}
+                        </Badge>
+                      ))}
+                    </div>
+                  </Card>
+                </motion.div>
+
+                {/* Blockchain & Web3 */}
+                <motion.div
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: 0.4 }}
+                >
+                  <Card className="p-6 bg-card/50 backdrop-blur-xl border-primary/20 hover-elevate h-full">
+                    <div className="text-3xl mb-4">⛓️</div>
+                    <h3 className="text-xl font-bold mb-4 text-primary">Blockchain & Web3</h3>
+                    <div className="flex flex-wrap gap-2">
+                      {["Solidity", "Smart Contracts", "Web3.js", "Ethers.js", "DeFi", "NFTs", "Decentralized Systems", "Blockchain Security"].map((skill) => (
+                        <Badge key={skill} variant="secondary" className="text-xs">
+                          {skill}
+                        </Badge>
+                      ))}
+                    </div>
+                  </Card>
+                </motion.div>
+
+                {/* Security & Authentication */}
+                <motion.div
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: 0.5 }}
+                >
+                  <Card className="p-6 bg-card/50 backdrop-blur-xl border-primary/20 hover-elevate h-full">
+                    <div className="text-3xl mb-4">🔐</div>
+                    <h3 className="text-xl font-bold mb-4 text-primary">Security & Auth</h3>
+                    <div className="flex flex-wrap gap-2">
+                      {["JWT", "OAuth", "RLS Policies", "Session Management", "RBAC", "XSS Protection", "SQL Injection Prevention", "Secure APIs"].map((skill) => (
+                        <Badge key={skill} variant="secondary" className="text-xs">
+                          {skill}
+                        </Badge>
+                      ))}
+                    </div>
+                  </Card>
+                </motion.div>
+
+                {/* DevOps & Deployment */}
+                <motion.div
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: 0.6 }}
+                >
+                  <Card className="p-6 bg-card/50 backdrop-blur-xl border-primary/20 hover-elevate h-full">
+                    <div className="text-3xl mb-4">🚀</div>
+                    <h3 className="text-xl font-bold mb-4 text-primary">DevOps & Deployment</h3>
+                    <div className="flex flex-wrap gap-2">
+                      {["Git", "GitHub", "Netlify", "Vercel", "Docker", "CI/CD", "DNS Config", "Environment Variables", "Build Optimization"].map((skill) => (
+                        <Badge key={skill} variant="secondary" className="text-xs">
+                          {skill}
+                        </Badge>
+                      ))}
+                    </div>
+                  </Card>
+                </motion.div>
+              </div>
+            </motion.div>
+          </div>
+        </section>
+
         {/* Projects Section */}
-        <section id="projects" className="py-24 px-6 bg-muted/20">
+        <section id="projects" className="py-24 px-6">
           <div className="max-w-7xl w-full mx-auto">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
